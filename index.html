@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid 19 india tracker</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid p-5 bg-light text-center my-3">
+        <h1>Covid-19 India tracker</h1>
+        <h5 class="text-muted">
+            Open source project for tracking covid 19 cases in india
+        </h5>
+        <br>
+        <br>
+        <h5>made with ❤ by  <a href="https://nausherofficial.github.io/">Nausher Ali</a> </h5>
+    </div>
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-3 text-warning">
+                <h5>Confirmed</h5>
+                <p id="confirmed"></p>
+            </div>
+            <div class="col-3 text-info">
+                <h5>Active</h5>
+                <p id="active"></p>
+            </div>
+            <div class="col-3 text-success">
+                <h5>Recovered</h5>
+                <p id="recovered"></p>
+            </div>
+            <div class="col-3 text-danger">
+                <h5>Deceased</h5>
+                <p id="deceased"></p>
+            </div>
+        </div>
+    </div>
+    <canvas id="myChart"></canvas>
+    <footer>
+        <p class="mt-5 mb-3 text-muted text-center">&copy; Nausher Ali</p>
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script src="script.js"></script>
+</html>
